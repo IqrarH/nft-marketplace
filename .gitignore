@@ -45,3 +45,4 @@ cache
 artifacts
 
 .env
+.secret
