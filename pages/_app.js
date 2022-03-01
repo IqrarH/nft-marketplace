@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Link from 'next/link';
+import { ServerStyleSheets } from '@material-ui/core/styles';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -18,10 +19,16 @@ function MyApp({ Component, pageProps }) {
               Sell Digital Asset
             </a>
           </Link>
-          
-          <Link href="/create-item">
+
+          <Link href="/my-assets">
             <a className="mr-6 text-pink-500">
               My Digital Assets
+            </a>
+          </Link>
+
+          <Link href="/creator-dashboard">
+            <a className="mr-6 text-pink-500">
+              Creator Dashboard
             </a>
           </Link>
         </div>
