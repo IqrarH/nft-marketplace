@@ -94,7 +94,6 @@ contract NFTMarket is ReentrancyGuard {
         payable(owner).transfer(listingPrice);
     }
 
-
     //Get All Unsold NFTs in the marketplace
     function fetchMarketItems() public view returns (MarketItem[] memory){
         uint itemCount = _itemIds.current();
